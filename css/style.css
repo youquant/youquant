@@ -513,7 +513,7 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 450px; }
     .work-flex .half .display-t {
       height: 450px;
-      display: table; }
+      }
       @media screen and (max-width: 480px) {
         .work-flex .half .display-t {
           display: block;
@@ -523,7 +523,12 @@ h1, h2, h3, h4, h5, h6, figure {
       vertical-align: middle; }
     .work-flex .half .desc {
       padding: 0 3em;
-      background: #fff; }
+      background: #fff;
+      padding-top: 15px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      }
       @media screen and (max-width: 768px) {
         .work-flex .half .desc {
           padding: 3em; } }
