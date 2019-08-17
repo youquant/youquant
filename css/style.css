@@ -1489,3 +1489,9 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+
+.two-collumns-long-and-short {
+  align-content: center !important;
+  align-items: top !important;
+  display: flex !important;
+}
