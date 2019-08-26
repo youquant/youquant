@@ -1495,3 +1495,7 @@ input[type="text"] {
   align-items: top !important;
   display: flex !important;
 }
+
+.indisponivel {
+   text-decoration: line-through;
+}
