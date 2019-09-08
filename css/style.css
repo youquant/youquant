@@ -1026,7 +1026,7 @@ article {
     box-shadow: none;
     border: 1px solid #e6e6e6; }
 
-input[type="text"] {
+input[type="text"] input[type="password"]{
   height: 50px; }
 
 .form-group {
@@ -1498,4 +1498,62 @@ input[type="text"] {
 
 .indisponivel {
    text-decoration: line-through;
+}
+
+
+.login {
+  display: block;
+  padding: 10px 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid #167ac6;
+}
+
+.login-input {
+  font-size: 14px !important;
+  font-weight: 500;
+  border-radius: 30px;
+  border: 1px solid #d1dfff;
+  color: #6193e3;
+}
+
+.login-input:focus {
+  background: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #5796e4;
+}
+
+.login-input::placeholder {
+  color: #6193e38a;
+}
+
+.form-margin {
+  margin: 8px 0 8px 0;
+}
+
+.button-margin {
+  margin: 0;
+}
+
+.access-title {
+  font-weight: 100;
+  color: rgba(0,0,0,0.7);
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .form-margin {
+    margin: 0 8px 0 8px;
+  }
+
+  .button-margin {
+    margin-left: 8px;
+  }
+
+  .access-title {
+    margin: 0 8px 0 0;
+  }
 }
